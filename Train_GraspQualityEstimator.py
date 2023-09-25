@@ -112,21 +112,13 @@ def log_losses(loss_dict, epoch, prefix=None):
 
 
 def train():
-<<<<<<< HEAD
-    epochs = 200
-    learning_rate = 0.1
+    epochs = 2000
+    learning_rate = 0.001
     hidden_dim = 64
     loss_name = 'l1_loss'
     #loss_name = 'mse_loss'
-    lr_sched_every = 100
-=======
-    epochs = 200
-    learning_rate = 0.1
-    hidden_dim = 64
-    loss_name = 'l1_loss'
-    #loss_name = 'mse_loss'
-    lr_sched_every = 100
->>>>>>> b3712b58cb4ba656ac3deddbbc8e9907b6e17ed4
+    #lr_sched_every = 100
+    lr_sched_every = None
 
     out_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'out')
     current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
@@ -159,26 +151,15 @@ def train():
     loss_fn = l1_loss
     #loss_fn = mse_loss
 
-    optimizer = torch.optim.Adam(grasp_quality_estimator.parameters(), lr=learning_rate, weight_decay=1e-4)
-<<<<<<< HEAD
-    #optimizer = torch.optim.SGD(grasp_quality_estimator.parameters(), lr=learning_rate, momentum=0.9, weight_decay=1e-4)
-    #optimizer = torch.optim.RMSprop(grasp_quality_estimator.parameters(), lr=learning_rate, alpha=0.99, eps=1e-8, weight_decay=1e-4)
-    #optimizer = torch.optim.Adagrad(grasp_quality_estimator.parameters(), lr=learning_rate, lr_decay=1e-4, weight_decay=1e-4)
-    #optimizer = torch.optim.Adadelta(grasp_quality_estimator.parameters(), rho=0.9, eps=1e-6, weight_decay=1e-4)
-    #optimizer = torch.optim.SGD(grasp_quality_estimator.parameters(), lr=learning_rate, momentum=0.9, nesterov=True, weight_decay=1e-4)
-
-    checkpoint_io = CheckpointIO(out_dir, model=grasp_quality_estimator, optimizer=optimizer)
-    scheduler = StepLR(optimizer, step_size=lr_sched_every, gamma=0.8)
-=======
+    #optimizer = torch.optim.Adam(grasp_quality_estimator.parameters(), lr=learning_rate, weight_decay=1e-4)
     # optimizer = torch.optim.SGD(grasp_quality_estimator.parameters(), lr=learning_rate, momentum=0.9, weight_decay=1e-4)
     # optimizer = torch.optim.RMSprop(grasp_quality_estimator.parameters(), lr=learning_rate, alpha=0.99, eps=1e-8,weight_decay=1e-4)
     # optimizer = torch.optim.Adagrad(grasp_quality_estimator.parameters(), lr=learning_rate, lr_decay=1e-4,weight_decay=1e-4)
-    # optimizer = torch.optim.Adadelta(grasp_quality_estimator.parameters(), rho=0.9, eps=1e-6, weight_decay=1e-4)
+    optimizer = torch.optim.Adadelta(grasp_quality_estimator.parameters(), rho=0.9, eps=1e-6, weight_decay=1e-4)
     # optimizer = torch.optim.SGD(grasp_quality_estimator.parameters(), lr=learning_rate, momentum=0.9, nesterov=True,weight_decay=1e-4)
 
     checkpoint_io = CheckpointIO(out_dir, model=grasp_quality_estimator, optimizer=optimizer)
-    scheduler = StepLR(optimizer, step_size=lr_sched_every, gamma=0.5)
->>>>>>> b3712b58cb4ba656ac3deddbbc8e9907b6e17ed4
+    #scheduler = StepLR(optimizer, step_size=lr_sched_every, gamma=0.5)
 
     iteration = 0
     best_val_score = np.inf
@@ -222,14 +203,9 @@ def train():
         print(f'** ep{epoch} - it{iteration}:')
         logging.info(f'** ep{epoch} - it{iteration}:')
         log_losses(epoch_losses, epoch, 'train')# log epoch instead
-<<<<<<< HEAD
-        optimizer.step()
-        scheduler.step()
+        # optimizer.step()
+        # scheduler.step()
 
-=======
-        optimizer.step()
-        scheduler.step()
->>>>>>> b3712b58cb4ba656ac3deddbbc8e9907b6e17ed4
         if (epoch + 1) % 10 == 0:
             # print(f'{"*" * 5} validating {"*" * 5}')
             logging.info(f'{"*" * 5} validating {"*" * 5}')
@@ -277,10 +253,5 @@ def train():
     print(f'saved grasp_quality_estimator to {os.path.join(out_dir, "model_final.pt")}')
     logging.info(f'saved grasp_quality_estimator to {os.path.join(out_dir, "model_final.pt")}')
 
-
 if __name__ == '__main__':
     train()
-<<<<<<< HEAD
-
-
->>>>> b3712b58cb4ba656ac3deddbbc8e9907b6e17ed4
