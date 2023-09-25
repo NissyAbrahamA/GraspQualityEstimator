@@ -1,0 +1,1 @@
+{"train/l1_loss_avg_epoch": 0.1699997140858017, "epoch": 2000, "_timestamp": 1695660545.3428843, "_runtime": 9416.830029249191, "_step": 2399, "val/l1_loss_avg_epoch": 0.1532660022377968, "val/mse_loss_avg_epoch": 0.043313142657279965, "_wandb": {"runtime": 9416}}
