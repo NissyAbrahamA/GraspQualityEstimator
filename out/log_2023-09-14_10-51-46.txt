@@ -1,0 +1,4 @@
+2023-09-14 10:51:46,270 - INFO - using device: cuda
+2023-09-14 10:51:48,647 - INFO - ** ep1 - it1:
+2023-09-14 10:51:48,648 - INFO -   l1_loss          avg 0.752255; min: 0.752255; max: 0.752255
+2023-09-14 10:51:48,683 - INFO - saved grasp_quality_estimator to /home/220269470/dev/graspqualityestimator_testing/out/model_final.pt

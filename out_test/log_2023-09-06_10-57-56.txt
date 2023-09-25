@@ -1,0 +1,136 @@
+2023-09-06 10:57:56,504 - INFO - using device: cuda
+2023-09-06 10:58:04,899 - INFO - tensor([[-0.0605, -0.0736, -0.0753,  ..., -0.0687, -0.0763, -0.0469]],
+       device='cuda:0', grad_fn=<TanhBackward0>)
+2023-09-06 10:58:05,040 - INFO - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2023-09-06 10:58:05,040 - INFO - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-06 10:58:05,040 - INFO - NumExpr defaulting to 8 threads.
+2023-09-06 10:58:05,944 - INFO - tensor([[0.8501, 0.7995, 0.8331,  ..., 0.8533, 0.7822, 0.8293]],
+       device='cuda:0', grad_fn=<TanhBackward0>)
+2023-09-06 10:58:06,140 - INFO - tensor([[0.9839, 0.9777, 0.9749,  ..., 0.9854, 0.9898, 0.9868]],
+       device='cuda:0', grad_fn=<TanhBackward0>)
+2023-09-06 10:58:06,336 - INFO - tensor([[1.0000, 1.0000, 1.0000,  ..., 1.0000, 1.0000, 1.0000]],
+       device='cuda:0', grad_fn=<TanhBackward0>)
+2023-09-06 10:58:06,515 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:06,618 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:06,738 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:06,893 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:07,109 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:07,302 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:07,497 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:07,683 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:07,872 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:08,065 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:08,264 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:08,445 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:08,653 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:08,852 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:09,042 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:09,235 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:09,427 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:09,621 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:09,825 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:10,008 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:10,225 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:10,426 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:10,626 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:10,825 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,056 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,285 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,491 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,591 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,694 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,798 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:11,920 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,092 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,248 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,387 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,490 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,626 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,740 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,856 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:12,958 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,123 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,224 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,326 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,428 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,542 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,646 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,793 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:13,922 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,034 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,137 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,241 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,348 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,462 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,619 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,723 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,827 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:14,931 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:15,072 - INFO - tensor([[1., 1., 1.,  ..., 1., 1., 1.]], device='cuda:0',
+       grad_fn=<TanhBackward0>)
+2023-09-06 10:58:15,079 - INFO - ** ep1 - it61:
+2023-09-06 10:58:15,079 - INFO -   l1_loss          avg 250.109665; min: 212.534973; max: 294.666626
+2023-09-06 10:58:15,079 - INFO -   ccr              avg 2321.262295; min: 49.000000; max: 3027.000000
+2023-09-06 10:58:15,079 - INFO -   precision        avg 1.000000; min: 1.000000; max: 1.000000
+2023-09-06 10:58:15,079 - INFO -   recall           avg 0.983919; min: 0.019081; max: 1.000000
+2023-09-06 10:58:15,080 - INFO -   detail/tp        avg 2321.262295; min: 49.000000; max: 3027.000000
+2023-09-06 10:58:15,080 - INFO -   detail/fp        avg 0.000000; min: 0.000000; max: 0.000000
+2023-09-06 10:58:15,080 - INFO -   detail/fn        avg 41.295082; min: 0.000000; max: 2519.000000
+2023-09-06 10:58:15,080 - INFO -   detail/tn        avg 0.000000; min: 0.000000; max: 0.000000
+2023-09-06 10:58:15,145 - INFO - saved grasp_quality_estimator to /home/220269470/dev/graspqualityestimator_testing/out_test/model_final.pt

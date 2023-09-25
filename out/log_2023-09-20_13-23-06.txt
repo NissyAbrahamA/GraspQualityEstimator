@@ -1,0 +1,1 @@
+2023-09-20 13:23:06,323 - INFO - using device: cuda

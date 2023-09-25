@@ -1,0 +1,28 @@
+2023-09-10 14:00:35,071 - INFO - using device: cuda
+2023-09-10 14:00:50,861 - INFO - ** ep1 - it2:
+2023-09-10 14:00:50,862 - INFO -   l1_loss          avg 0.392540; min: 0.370632; max: 0.414449
+2023-09-10 14:01:00,079 - INFO - ** ep2 - it4:
+2023-09-10 14:01:00,079 - INFO -   l1_loss          avg 0.425141; min: 0.308436; max: 0.541847
+2023-09-10 14:01:09,841 - INFO - ** ep3 - it6:
+2023-09-10 14:01:09,842 - INFO -   l1_loss          avg 0.319234; min: 0.312150; max: 0.326318
+2023-09-10 14:01:18,849 - INFO - ** ep4 - it8:
+2023-09-10 14:01:18,850 - INFO -   l1_loss          avg 0.325141; min: 0.301966; max: 0.348315
+2023-09-10 14:01:27,607 - INFO - ** ep5 - it10:
+2023-09-10 14:01:27,609 - INFO -   l1_loss          avg 0.314416; min: 0.304070; max: 0.324761
+2023-09-10 14:01:37,208 - INFO - ** ep6 - it12:
+2023-09-10 14:01:37,209 - INFO -   l1_loss          avg 0.303461; min: 0.302815; max: 0.304107
+2023-09-10 14:01:45,812 - INFO - ** ep7 - it14:
+2023-09-10 14:01:45,815 - INFO -   l1_loss          avg 0.304659; min: 0.293070; max: 0.316247
+2023-09-10 14:01:53,871 - INFO - ** ep8 - it16:
+2023-09-10 14:01:53,872 - INFO -   l1_loss          avg 0.303077; min: 0.299902; max: 0.306252
+2023-09-10 14:02:02,775 - INFO - ** ep9 - it18:
+2023-09-10 14:02:02,776 - INFO -   l1_loss          avg 0.301745; min: 0.293584; max: 0.309907
+2023-09-10 14:02:02,776 - INFO - ***** validating *****
+2023-09-10 14:02:03,471 - INFO - evaluated 1 objects
+2023-09-10 14:02:03,482 - INFO -   l1_loss          avg 0.348352; min: 0.348352; max: 0.348352
+2023-09-10 14:02:03,483 - INFO -   mse_loss         avg 0.174483; min: 0.174483; max: 0.174483
+2023-09-10 14:02:03,484 - INFO - best val l1_loss score was inf from epoch None
+2023-09-10 14:02:03,485 - INFO - saving new best model at ep9, it18, with score 0.34835
+2023-09-10 14:02:12,337 - INFO - ** ep10 - it20:
+2023-09-10 14:02:12,338 - INFO -   l1_loss          avg 0.306820; min: 0.302458; max: 0.311182
+2023-09-10 14:02:12,464 - INFO - saved grasp_quality_estimator to /home/220269470/dev/graspqualityestimator_testing/out/model_final.pt

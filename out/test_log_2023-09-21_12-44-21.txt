@@ -1,0 +1,7 @@
+2023-09-21 12:44:24,463 - INFO - Test Batch 1/5: MSE Loss: 0.22182, L1 Loss: 0.40560
+2023-09-21 12:44:24,547 - INFO - Test Batch 2/5: MSE Loss: 0.04624, L1 Loss: 0.17406
+2023-09-21 12:44:24,633 - INFO - Test Batch 3/5: MSE Loss: 0.18777, L1 Loss: 0.34409
+2023-09-21 12:44:24,719 - INFO - Test Batch 4/5: MSE Loss: 0.03942, L1 Loss: 0.15451
+2023-09-21 12:44:24,798 - INFO - Test Batch 5/5: MSE Loss: 0.12847, L1 Loss: 0.27512
+2023-09-21 12:44:24,799 - INFO - Test MSE Loss (Average): 0.12474
+2023-09-21 12:44:24,800 - INFO - Test L1 Loss (Average): 0.27068

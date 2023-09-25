@@ -1,0 +1,14 @@
+2023-09-06 11:27:21,923 - INFO - using device: cuda
+2023-09-06 11:27:30,539 - INFO - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2023-09-06 11:27:30,539 - INFO - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-06 11:27:30,539 - INFO - NumExpr defaulting to 8 threads.
+2023-09-06 11:28:05,543 - INFO - ** ep1 - it61:
+2023-09-06 11:28:05,546 - INFO -   l1_loss          avg 87.310077; min: 30.130587; max: 289.481995
+2023-09-06 11:28:05,547 - INFO -   ccr              avg 2293.688525; min: 0.000000; max: 3027.000000
+2023-09-06 11:28:05,547 - INFO -   precision        avg 0.983607; min: 0.000000; max: 1.000000
+2023-09-06 11:28:05,547 - INFO -   recall           avg 0.971460; min: 0.000000; max: 1.000000
+2023-09-06 11:28:05,547 - INFO -   detail/tp        avg 2293.688525; min: 0.000000; max: 3027.000000
+2023-09-06 11:28:05,547 - INFO -   detail/fp        avg 0.000000; min: 0.000000; max: 0.000000
+2023-09-06 11:28:05,547 - INFO -   detail/fn        avg 68.868852; min: 0.000000; max: 2170.000000
+2023-09-06 11:28:05,548 - INFO -   detail/tn        avg 0.000000; min: 0.000000; max: 0.000000
+2023-09-06 11:28:05,689 - INFO - saved grasp_quality_estimator to /home/220269470/dev/graspqualityestimator_testing/out_test/model_final.pt

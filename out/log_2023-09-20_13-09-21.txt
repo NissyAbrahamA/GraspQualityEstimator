@@ -1,0 +1,23 @@
+2023-09-20 13:09:21,941 - INFO - using device: cuda
+2023-09-20 13:09:26,039 - INFO - Note: detected 80 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2023-09-20 13:09:26,039 - INFO - Note: NumExpr detected 80 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-09-20 13:09:26,039 - INFO - NumExpr defaulting to 8 threads.
+2023-09-20 13:09:27,570 - INFO - ** ep1 - it2:
+2023-09-20 13:09:27,570 - INFO -   l1_loss          avg 0.513678; min: 0.450273; max: 0.577082
+2023-09-20 13:09:30,671 - INFO - ** ep2 - it4:
+2023-09-20 13:09:30,672 - INFO -   l1_loss          avg 0.574675; min: 0.557909; max: 0.591440
+2023-09-20 13:09:33,744 - INFO - ** ep3 - it6:
+2023-09-20 13:09:33,744 - INFO -   l1_loss          avg 0.562164; min: 0.532327; max: 0.592000
+2023-09-20 13:09:36,808 - INFO - ** ep4 - it8:
+2023-09-20 13:09:36,809 - INFO -   l1_loss          avg 0.778729; min: 0.414606; max: 1.142853
+2023-09-20 13:09:39,890 - INFO - ** ep5 - it10:
+2023-09-20 13:09:39,890 - INFO -   l1_loss          avg 1.189417; min: 1.138234; max: 1.240600
+2023-09-20 13:09:42,970 - INFO - ** ep6 - it12:
+2023-09-20 13:09:42,970 - INFO -   l1_loss          avg 0.585425; min: 0.571956; max: 0.598894
+2023-09-20 13:09:46,047 - INFO - ** ep7 - it14:
+2023-09-20 13:09:46,047 - INFO -   l1_loss          avg 0.596584; min: 0.584523; max: 0.608646
+2023-09-20 13:09:49,205 - INFO - ** ep8 - it16:
+2023-09-20 13:09:49,206 - INFO -   l1_loss          avg 0.593335; min: 0.572083; max: 0.614588
+2023-09-20 13:09:52,523 - INFO - ** ep9 - it18:
+2023-09-20 13:09:52,524 - INFO -   l1_loss          avg 0.580903; min: 0.565444; max: 0.596362
+2023-09-20 13:09:52,524 - INFO - ***** validating *****
