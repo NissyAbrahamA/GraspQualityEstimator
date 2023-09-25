@@ -5,7 +5,7 @@ import numpy as np
 from torch.utils.data import Dataset
 from convonets.src.checkpoints import CheckpointIO
 from GraspQualityEstimator_NeuralNetwork import create_grasp_quality_net
-from Train_GraspQualityEstimator import CustomDataset, log_losses, append_stats_to_dict
+from Train_GraspQualityEstimator import CustomDataset, log_losses
 import logging
 import datetime
 #
