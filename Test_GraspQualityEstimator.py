@@ -68,7 +68,7 @@ if __name__ == '__main__':
     current_dir = os.getcwd()
     test_npz_folder = os.path.join(current_dir, 'Input_NN', 'val_cpscore')
     test_conv_folder = os.path.join(current_dir, 'Input_NN', 'val_latentfeatures')
-    model_path = os.path.join('out/goldensrc', 'model_final.pt')
+    model_path = os.path.join('out', 'model_final.pt')
 
     current_time = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     log_file = os.path.join('out', f'test_log_{current_time}.txt')

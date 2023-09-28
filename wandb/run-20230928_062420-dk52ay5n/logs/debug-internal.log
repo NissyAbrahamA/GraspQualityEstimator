@@ -1,0 +1,193 @@
+2023-09-28 06:24:20,282 INFO    StreamThr :1787634 [internal.py:wandb_internal():86] W&B internal server running at pid: 1787634, started at: 2023-09-28 06:24:20.281000
+2023-09-28 06:24:20,285 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: status
+2023-09-28 06:24:20,290 INFO    WriterThread:1787634 [datastore.py:open_for_write():85] open: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/run-dk52ay5n.wandb
+2023-09-28 06:24:20,291 DEBUG   SenderThread:1787634 [sender.py:send():379] send: header
+2023-09-28 06:24:20,295 DEBUG   SenderThread:1787634 [sender.py:send():379] send: run
+2023-09-28 06:24:20,646 INFO    SenderThread:1787634 [dir_watcher.py:__init__():211] watching files in: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files
+2023-09-28 06:24:20,647 INFO    SenderThread:1787634 [sender.py:_start_run_threads():1121] run started: dk52ay5n with start time 1695878660.280106
+2023-09-28 06:24:20,664 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: check_version
+2023-09-28 06:24:20,665 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: check_version
+2023-09-28 06:24:20,777 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: run_start
+2023-09-28 06:24:20,889 DEBUG   HandlerThread:1787634 [system_info.py:__init__():32] System info init
+2023-09-28 06:24:20,889 DEBUG   HandlerThread:1787634 [system_info.py:__init__():47] System info init done
+2023-09-28 06:24:20,889 INFO    HandlerThread:1787634 [system_monitor.py:start():181] Starting system monitor
+2023-09-28 06:24:20,890 INFO    SystemMonitor:1787634 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-28 06:24:20,890 INFO    HandlerThread:1787634 [system_monitor.py:probe():201] Collecting system info
+2023-09-28 06:24:20,891 INFO    SystemMonitor:1787634 [interfaces.py:start():190] Started cpu monitoring
+2023-09-28 06:24:20,892 INFO    SystemMonitor:1787634 [interfaces.py:start():190] Started disk monitoring
+2023-09-28 06:24:20,892 INFO    SystemMonitor:1787634 [interfaces.py:start():190] Started gpu monitoring
+2023-09-28 06:24:20,893 INFO    SystemMonitor:1787634 [interfaces.py:start():190] Started memory monitoring
+2023-09-28 06:24:20,894 INFO    SystemMonitor:1787634 [interfaces.py:start():190] Started network monitoring
+2023-09-28 06:24:20,987 DEBUG   HandlerThread:1787634 [system_info.py:probe():196] Probing system
+2023-09-28 06:24:20,989 DEBUG   HandlerThread:1787634 [system_info.py:_probe_git():181] Probing git
+2023-09-28 06:24:20,997 DEBUG   HandlerThread:1787634 [system_info.py:_probe_git():189] Probing git done
+2023-09-28 06:24:20,997 DEBUG   HandlerThread:1787634 [system_info.py:probe():244] Probing system done
+2023-09-28 06:24:20,997 DEBUG   HandlerThread:1787634 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-74-generic-x86_64-with-glibc2.31', 'python': '3.10.12', 'heartbeatAt': '2023-09-28T05:24:20.987189', 'startedAt': '2023-09-28T05:24:20.273432', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/220269470/dev/GraspQualityEstimator_Final/Test_GraspQualityEstimator.py', 'codePathLocal': 'Test_GraspQualityEstimator.py', 'codePath': 'Test_GraspQualityEstimator.py', 'git': {'remote': 'git@github.com:NissyAbrahamA/GraspQualityEstimator_Final.git', 'commit': '5c6e76269f5ad18f8f3f6bf409375338bf4e1848'}, 'email': None, 'root': '/home/220269470/dev/GraspQualityEstimator_Final', 'host': 'csml01.campus.aston.ac.uk', 'username': '220269470', 'executable': '/users/2/220269470/miniconda3/envs/gag/bin/python', 'cpu_count': 40, 'cpu_count_logical': 80, 'cpu_freq': {'current': 1205.3088625000005, 'min': 800.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 800.062, 'min': 800.0, 'max': 4000.0}, {'current': 800.782, 'min': 800.0, 'max': 4000.0}, {'current': 2937.105, 'min': 800.0, 'max': 4000.0}, {'current': 1140.166, 'min': 800.0, 'max': 4000.0}, {'current': 800.577, 'min': 800.0, 'max': 4000.0}, {'current': 801.302, 'min': 800.0, 'max': 4000.0}, {'current': 800.655, 'min': 800.0, 'max': 4000.0}, {'current': 800.675, 'min': 800.0, 'max': 4000.0}, {'current': 1448.346, 'min': 800.0, 'max': 4000.0}, {'current': 800.476, 'min': 800.0, 'max': 4000.0}, {'current': 800.451, 'min': 800.0, 'max': 4000.0}, {'current': 3315.786, 'min': 800.0, 'max': 4000.0}, {'current': 800.757, 'min': 800.0, 'max': 4000.0}, {'current': 799.999, 'min': 800.0, 'max': 4000.0}, {'current': 800.037, 'min': 800.0, 'max': 4000.0}, {'current': 800.543, 'min': 800.0, 'max': 4000.0}, {'current': 800.175, 'min': 800.0, 'max': 4000.0}, {'current': 800.677, 'min': 800.0, 'max': 4000.0}, {'current': 2170.747, 'min': 800.0, 'max': 4000.0}, {'current': 801.129, 'min': 800.0, 'max': 4000.0}, {'current': 3630.077, 'min': 800.0, 'max': 4000.0}, {'current': 800.909, 'min': 800.0, 'max': 4000.0}, {'current': 800.502, 'min': 800.0, 'max': 4000.0}, {'current': 801.012, 'min': 800.0, 'max': 4000.0}, {'current': 800.783, 'min': 800.0, 'max': 4000.0}, {'current': 800.58, 'min': 800.0, 'max': 4000.0}, {'current': 800.14, 'min': 800.0, 'max': 4000.0}, {'current': 800.88, 'min': 800.0, 'max': 4000.0}, {'current': 800.602, 'min': 800.0, 'max': 4000.0}, {'current': 800.387, 'min': 800.0, 'max': 4000.0}, {'current': 3623.898, 'min': 800.0, 'max': 4000.0}, {'current': 800.455, 'min': 800.0, 'max': 4000.0}, {'current': 3050.091, 'min': 800.0, 'max': 4000.0}, {'current': 867.43, 'min': 800.0, 'max': 4000.0}, {'current': 801.085, 'min': 800.0, 'max': 4000.0}, {'current': 801.057, 'min': 800.0, 'max': 4000.0}, {'current': 800.286, 'min': 800.0, 'max': 4000.0}, {'current': 800.651, 'min': 800.0, 'max': 4000.0}, {'current': 800.583, 'min': 800.0, 'max': 4000.0}, {'current': 800.418, 'min': 800.0, 'max': 4000.0}, {'current': 800.777, 'min': 800.0, 'max': 4000.0}, {'current': 800.172, 'min': 800.0, 'max': 4000.0}, {'current': 2942.119, 'min': 800.0, 'max': 4000.0}, {'current': 1015.275, 'min': 800.0, 'max': 4000.0}, {'current': 800.272, 'min': 800.0, 'max': 4000.0}, {'current': 800.038, 'min': 800.0, 'max': 4000.0}, {'current': 800.782, 'min': 800.0, 'max': 4000.0}, {'current': 800.906, 'min': 800.0, 'max': 4000.0}, {'current': 1602.299, 'min': 800.0, 'max': 4000.0}, {'current': 800.278, 'min': 800.0, 'max': 4000.0}, {'current': 800.219, 'min': 800.0, 'max': 4000.0}, {'current': 3097.254, 'min': 800.0, 'max': 4000.0}, {'current': 800.633, 'min': 800.0, 'max': 4000.0}, {'current': 799.116, 'min': 800.0, 'max': 4000.0}, {'current': 800.883, 'min': 800.0, 'max': 4000.0}, {'current': 799.961, 'min': 800.0, 'max': 4000.0}, {'current': 800.582, 'min': 800.0, 'max': 4000.0}, {'current': 801.2, 'min': 800.0, 'max': 4000.0}, {'current': 2566.947, 'min': 800.0, 'max': 4000.0}, {'current': 800.091, 'min': 800.0, 'max': 4000.0}, {'current': 3664.433, 'min': 800.0, 'max': 4000.0}, {'current': 801.369, 'min': 800.0, 'max': 4000.0}, {'current': 800.413, 'min': 800.0, 'max': 4000.0}, {'current': 800.662, 'min': 800.0, 'max': 4000.0}, {'current': 800.686, 'min': 800.0, 'max': 4000.0}, {'current': 800.369, 'min': 800.0, 'max': 4000.0}, {'current': 800.711, 'min': 800.0, 'max': 4000.0}, {'current': 800.744, 'min': 800.0, 'max': 4000.0}, {'current': 800.076, 'min': 800.0, 'max': 4000.0}, {'current': 800.57, 'min': 800.0, 'max': 4000.0}, {'current': 3598.725, 'min': 800.0, 'max': 4000.0}, {'current': 800.296, 'min': 800.0, 'max': 4000.0}, {'current': 3409.56, 'min': 800.0, 'max': 4000.0}, {'current': 808.351, 'min': 800.0, 'max': 4000.0}, {'current': 800.709, 'min': 800.0, 'max': 4000.0}, {'current': 800.0, 'min': 800.0, 'max': 4000.0}, {'current': 801.089, 'min': 800.0, 'max': 4000.0}, {'current': 800.802, 'min': 800.0, 'max': 4000.0}, {'current': 800.948, 'min': 800.0, 'max': 4000.0}, {'current': 800.815, 'min': 800.0, 'max': 4000.0}], 'disk': {'/': {'total': 3666.041030883789, 'used': 105.72822952270508}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 10, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51050315776}], 'memory': {'total': 754.5720596313477}}
+2023-09-28 06:24:20,997 INFO    HandlerThread:1787634 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-28 06:24:20,997 INFO    HandlerThread:1787634 [system_monitor.py:probe():214] Publishing system info
+2023-09-28 06:24:20,997 DEBUG   HandlerThread:1787634 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-28 06:24:20,997 DEBUG   HandlerThread:1787634 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-28 06:24:20,998 DEBUG   HandlerThread:1787634 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-09-28 06:24:21,650 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_created():271] file/dir created: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/requirements.txt
+2023-09-28 06:24:21,651 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_created():271] file/dir created: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/conda-environment.yaml
+2023-09-28 06:24:25,902 DEBUG   HandlerThread:1787634 [system_info.py:_save_conda():87] Saving conda packages done
+2023-09-28 06:24:25,905 INFO    HandlerThread:1787634 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-28 06:24:25,909 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: status_report
+2023-09-28 06:24:25,909 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-28 06:24:25,910 DEBUG   SenderThread:1787634 [sender.py:send():379] send: files
+2023-09-28 06:24:25,910 INFO    SenderThread:1787634 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-28 06:24:25,921 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-28 06:24:25,922 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: stop_status
+2023-09-28 06:24:26,055 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-28 06:24:26,127 DEBUG   SenderThread:1787634 [sender.py:send():379] send: telemetry
+2023-09-28 06:24:26,458 INFO    wandb-upload_0:1787634 [upload_job.py:push():131] Uploaded file /tmp/tmptnb28mvawandb/c84wx0cw-wandb-metadata.json
+2023-09-28 06:24:26,649 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/conda-environment.yaml
+2023-09-28 06:24:26,649 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_created():271] file/dir created: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/wandb-metadata.json
+2023-09-28 06:24:31,129 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: status_report
+2023-09-28 06:24:31,883 DEBUG   SenderThread:1787634 [sender.py:send():379] send: exit
+2023-09-28 06:24:31,883 INFO    SenderThread:1787634 [sender.py:send_exit():584] handling exit code: 0
+2023-09-28 06:24:31,883 INFO    SenderThread:1787634 [sender.py:send_exit():586] handling runtime: 11
+2023-09-28 06:24:31,887 INFO    SenderThread:1787634 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-28 06:24:31,888 INFO    SenderThread:1787634 [sender.py:send_exit():592] send defer
+2023-09-28 06:24:31,888 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:31,889 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-28 06:24:31,889 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:31,890 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-28 06:24:31,890 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 1
+2023-09-28 06:24:31,890 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:31,891 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-28 06:24:31,891 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:31,892 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-28 06:24:31,892 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 2
+2023-09-28 06:24:31,892 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:31,892 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-28 06:24:31,892 INFO    HandlerThread:1787634 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-28 06:24:31,894 DEBUG   SystemMonitor:1787634 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-28 06:24:31,894 INFO    HandlerThread:1787634 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-28 06:24:31,894 DEBUG   SystemMonitor:1787634 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-28 06:24:31,895 INFO    HandlerThread:1787634 [interfaces.py:finish():202] Joined disk monitor
+2023-09-28 06:24:31,895 DEBUG   SystemMonitor:1787634 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-28 06:24:32,652 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_created():271] file/dir created: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/output.log
+2023-09-28 06:24:32,653 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_created():271] file/dir created: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/wandb-summary.json
+2023-09-28 06:24:33,364 INFO    HandlerThread:1787634 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-28 06:24:33,365 INFO    HandlerThread:1787634 [interfaces.py:finish():202] Joined memory monitor
+2023-09-28 06:24:33,365 INFO    HandlerThread:1787634 [interfaces.py:finish():202] Joined network monitor
+2023-09-28 06:24:33,366 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 06:24:33,368 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,368 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-28 06:24:33,368 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 3
+2023-09-28 06:24:33,369 DEBUG   SenderThread:1787634 [sender.py:send():379] send: stats
+2023-09-28 06:24:33,369 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,371 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: poll_exit
+2023-09-28 06:24:33,372 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-28 06:24:33,374 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,374 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-28 06:24:33,374 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 4
+2023-09-28 06:24:33,374 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,374 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-28 06:24:33,375 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,375 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-28 06:24:33,375 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 5
+2023-09-28 06:24:33,375 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,375 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-28 06:24:33,376 DEBUG   SenderThread:1787634 [sender.py:send():379] send: summary
+2023-09-28 06:24:33,377 INFO    SenderThread:1787634 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-28 06:24:33,378 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,378 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-28 06:24:33,378 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 6
+2023-09-28 06:24:33,379 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,379 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-28 06:24:33,379 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,379 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-28 06:24:33,385 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: status_report
+2023-09-28 06:24:33,549 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 7
+2023-09-28 06:24:33,550 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,550 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-28 06:24:33,550 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,551 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-28 06:24:33,654 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/config.yaml
+2023-09-28 06:24:33,655 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/wandb-summary.json
+2023-09-28 06:24:33,886 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 06:24:33,892 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 8
+2023-09-28 06:24:33,892 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: poll_exit
+2023-09-28 06:24:33,893 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,893 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-28 06:24:33,894 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:33,894 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-28 06:24:33,894 INFO    SenderThread:1787634 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-28 06:24:33,895 INFO    SenderThread:1787634 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-09-28 06:24:33,900 INFO    SenderThread:1787634 [job_builder.py:build():369] adding wandb-job metadata file
+2023-09-28 06:24:33,904 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 9
+2023-09-28 06:24:33,904 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:33,905 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-28 06:24:33,905 DEBUG   SenderThread:1787634 [sender.py:send():379] send: artifact
+2023-09-28 06:24:34,613 INFO    SenderThread:1787634 [sender.py:send_artifact():1453] sent artifact job-git_github.com_NissyAbrahamA_GraspQualityEstimator_Final.git_Test_GraspQualityEstimator.py - {'id': 'QXJ0aWZhY3Q6NTg2OTUwNTg0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMDg3Mzk3NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTg2OTUwNTg0', 'versionIndex': 2}}}
+2023-09-28 06:24:34,613 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:34,613 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-28 06:24:34,613 INFO    SenderThread:1787634 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-28 06:24:34,654 INFO    Thread-12 :1787634 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/output.log
+2023-09-28 06:24:34,655 INFO    SenderThread:1787634 [dir_watcher.py:finish():388] scan: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files
+2023-09-28 06:24:34,656 INFO    SenderThread:1787634 [dir_watcher.py:finish():402] scan save: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/config.yaml config.yaml
+2023-09-28 06:24:34,656 INFO    SenderThread:1787634 [dir_watcher.py:finish():402] scan save: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/wandb-summary.json wandb-summary.json
+2023-09-28 06:24:34,657 INFO    SenderThread:1787634 [dir_watcher.py:finish():402] scan save: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/conda-environment.yaml conda-environment.yaml
+2023-09-28 06:24:34,668 INFO    SenderThread:1787634 [dir_watcher.py:finish():402] scan save: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/wandb-metadata.json wandb-metadata.json
+2023-09-28 06:24:34,669 INFO    SenderThread:1787634 [dir_watcher.py:finish():402] scan save: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/requirements.txt requirements.txt
+2023-09-28 06:24:34,670 INFO    SenderThread:1787634 [dir_watcher.py:finish():402] scan save: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/output.log output.log
+2023-09-28 06:24:34,680 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 10
+2023-09-28 06:24:34,681 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:34,682 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-28 06:24:34,688 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:34,688 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-28 06:24:34,689 INFO    SenderThread:1787634 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-28 06:24:34,887 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 06:24:34,888 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: poll_exit
+2023-09-28 06:24:34,998 INFO    wandb-upload_0:1787634 [upload_job.py:push():131] Uploaded file /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/config.yaml
+2023-09-28 06:24:35,068 INFO    wandb-upload_1:1787634 [upload_job.py:push():131] Uploaded file /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/wandb-summary.json
+2023-09-28 06:24:35,263 INFO    wandb-upload_4:1787634 [upload_job.py:push():131] Uploaded file /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/output.log
+2023-09-28 06:24:35,280 INFO    wandb-upload_2:1787634 [upload_job.py:push():131] Uploaded file /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/conda-environment.yaml
+2023-09-28 06:24:35,290 INFO    wandb-upload_3:1787634 [upload_job.py:push():131] Uploaded file /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/files/requirements.txt
+2023-09-28 06:24:35,490 INFO    Thread-11 (_thread_body):1787634 [sender.py:transition_state():612] send defer: 11
+2023-09-28 06:24:35,491 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:35,491 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-28 06:24:35,492 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:35,492 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-28 06:24:35,492 INFO    SenderThread:1787634 [file_pusher.py:join():181] waiting for file pusher
+2023-09-28 06:24:35,492 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 12
+2023-09-28 06:24:35,493 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:35,493 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-28 06:24:35,494 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:35,494 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-28 06:24:35,494 INFO    SenderThread:1787634 [file_stream.py:finish():594] file stream finish called
+2023-09-28 06:24:35,641 INFO    SenderThread:1787634 [file_stream.py:finish():598] file stream finish is done
+2023-09-28 06:24:35,641 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 13
+2023-09-28 06:24:35,642 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:35,642 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-28 06:24:35,643 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:35,643 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-28 06:24:35,643 INFO    SenderThread:1787634 [sender.py:transition_state():612] send defer: 14
+2023-09-28 06:24:35,643 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: defer
+2023-09-28 06:24:35,644 INFO    HandlerThread:1787634 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-28 06:24:35,644 DEBUG   SenderThread:1787634 [sender.py:send():379] send: final
+2023-09-28 06:24:35,645 DEBUG   SenderThread:1787634 [sender.py:send():379] send: footer
+2023-09-28 06:24:35,645 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: defer
+2023-09-28 06:24:35,645 INFO    SenderThread:1787634 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-28 06:24:35,646 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 06:24:35,647 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: poll_exit
+2023-09-28 06:24:35,648 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-28 06:24:35,648 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: poll_exit
+2023-09-28 06:24:35,649 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: server_info
+2023-09-28 06:24:35,650 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: server_info
+2023-09-28 06:24:35,654 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-28 06:24:35,656 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-28 06:24:35,657 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-28 06:24:35,657 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: job_info
+2023-09-28 06:24:35,768 DEBUG   SenderThread:1787634 [sender.py:send_request():406] send_request: job_info
+2023-09-28 06:24:35,769 INFO    MainThread:1787634 [wandb_run.py:_footer_history_summary_info():3557] rendering history
+2023-09-28 06:24:35,769 INFO    MainThread:1787634 [wandb_run.py:_footer_history_summary_info():3589] rendering summary
+2023-09-28 06:24:35,769 INFO    MainThread:1787634 [wandb_run.py:_footer_sync_info():3516] logging synced files
+2023-09-28 06:24:35,770 DEBUG   HandlerThread:1787634 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-28 06:24:35,771 INFO    HandlerThread:1787634 [handler.py:finish():840] shutting down handler
+2023-09-28 06:24:36,658 INFO    WriterThread:1787634 [datastore.py:close():294] close: /home/220269470/dev/GraspQualityEstimator_Final/wandb/run-20230928_062420-dk52ay5n/run-dk52ay5n.wandb
+2023-09-28 06:24:36,769 INFO    SenderThread:1787634 [sender.py:finish():1531] shutting down sender
+2023-09-28 06:24:36,769 INFO    SenderThread:1787634 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-28 06:24:36,769 INFO    SenderThread:1787634 [file_pusher.py:join():181] waiting for file pusher
