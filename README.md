@@ -5,8 +5,7 @@ This repository encompasses a comprehensive project centered around two-fingered
 ## Build Environment
 
 To replicate the development environment for this project, you can use Conda. Follow these steps:
-- `burg_toolkit.util.calc_score`: New scoring metric. conda create -n gqe python=3.10
-- `burg_toolkit.util.angle`: Used for calculating grasp scores.
+-  conda create -n gqe python=3.10
 - conda activate gqe
 - conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 - conda config --append channels conda-forge
