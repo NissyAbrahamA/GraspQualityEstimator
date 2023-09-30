@@ -16,9 +16,9 @@ The `burg_toolkit` is used for dataset creation for the neural network model and
 - `burg_toolkit.visualization.plot_contacts_normals`: Added for grasp visualization.
 - `burg_toolkit.sampling.sample`: Modified for grasp sampling.
 - `burg_toolkit.sampling.randomsample`: Added for random grasp generation.
-- `tests/gasp_testing.py`: Functions for testing grasp sampling and scoring.
-- `tests/gasp_testing.py`: Functions for visualizing and confirming dataset correctness.
-- `tests/gasp_testing.py`: Functions for dataset transformation.
+- `tests/gasp_testing.py`:  functions like modified test_new_antipodal_grasp_sampling and newly added test_antipodal_grasp_random_sampling to utilise the above sampling codes of burg_toolkit.
+- `tests/gasp_testing.py`: functions test_scoring_for_grippers is added for visualisation of the dataset created along with the score calculated to confirm the correctness of the dataset
+- `tests/gasp_testing.py`: functions augmented_tranformation is added for centering the YCB dataset to make them consistent with ConVSDFNet for latent code representation.
 
 ### Latent Representation
 
