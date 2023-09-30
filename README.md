@@ -64,6 +64,12 @@ The important components for the Neural Network model are:
 - `out`: Output logs and the best model after training of the model are stored in this folder.
 - `out_test`: Output logs of the testing of the neural network.
 
-## Test
+Various visualizations and testing of the datasets are avialable in Test folder, including `071_a_toy_airplane` and `011_banana` for visualization of the latent space.
 
-Various visualizations and testing of the datasets, including `071_a_toy_airplane` and `011_banana` for visualization of the latent space.
+## Testing Baseline Model
+
+The GraspQualityEstimator_Baseline.py can be executed directly in CPU machines as it has hardcoded experimental set up in place. 
+The GraspQualityEstimator_Baseline_Demo.py can be executed directly in CPU machines. The program tried to identify success grasp though iterative refinement.
+
+## Neural Network Model 
+After setting up the environment as explained above, the Test_GraspQualityEstimator.py can be executed on the testing dataset in Input_NN folder using GPU machine. 
