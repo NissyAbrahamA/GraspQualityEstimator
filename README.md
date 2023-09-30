@@ -2,6 +2,21 @@
 
 This repository encompasses a comprehensive project centered around two-fingered robotic grasp refinement. It comprises two main components: a baseline model that systematically adjusts grasp contact points to improve stability and a neural network model that predicts grasp quality.
 
+## Build Environment
+
+To replicate the development environment for this project, you can use Conda. Follow these steps:
+conda create -n gqe python=3.10
+conda activate gqe
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda config --append channels conda-forge
+conda install cython pandas pyembree
+pip install https://github.com/mrudorfer/burg-toolkit/archive/refs/heads/dev.zip
+pip install pykdtree plyfile tensorboardX gdown wandb
+pip install torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+cu117.html
+python setup.py build_ext --inplace
+pip install -e .
+
+
 ## Dependencies
 
 The dependencies in this project are:
