@@ -1,0 +1,26 @@
+bg_objects: []
+ground_area_x: 0.297
+ground_area_y: 0.297
+object_library_fn: ..\..\object_library\object_library_watertight.yaml
+objects:
+- object_type: 063-b_marbles
+  pose:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.15761663798615336
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.1937002380043268
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.13153421220043673
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+printout: null
+yaml_file_type: Scene
+yaml_file_version: '1.0'

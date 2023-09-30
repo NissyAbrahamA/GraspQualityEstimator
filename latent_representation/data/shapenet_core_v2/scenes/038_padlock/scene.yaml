@@ -1,0 +1,26 @@
+bg_objects: []
+ground_area_x: 0.297
+ground_area_y: 0.297
+object_library_fn: ..\..\object_library\object_library_watertight.yaml
+objects:
+- object_type: 038_padlock
+  pose:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.166495017580688
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.1457844086587429
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.1342641372946091
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+printout: null
+yaml_file_type: Scene
+yaml_file_version: '1.0'

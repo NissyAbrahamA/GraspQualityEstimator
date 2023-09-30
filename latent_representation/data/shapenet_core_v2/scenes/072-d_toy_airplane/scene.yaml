@@ -1,0 +1,26 @@
+bg_objects: []
+ground_area_x: 0.297
+ground_area_y: 0.297
+object_library_fn: ..\..\object_library\object_library_watertight.yaml
+objects:
+- object_type: 072-d_toy_airplane
+  pose:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.1707813228610903
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.14689901831001043
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.11535198985505848
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+printout: null
+yaml_file_type: Scene
+yaml_file_version: '1.0'

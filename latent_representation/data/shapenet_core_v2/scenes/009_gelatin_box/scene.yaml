@@ -1,0 +1,26 @@
+bg_objects: []
+ground_area_x: 0.297
+ground_area_y: 0.297
+object_library_fn: ..\..\object_library\object_library_watertight.yaml
+objects:
+- object_type: 009_gelatin_box
+  pose:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.17130574478209018
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.15672213105857372
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.1340259225005284
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+printout: null
+yaml_file_type: Scene
+yaml_file_version: '1.0'

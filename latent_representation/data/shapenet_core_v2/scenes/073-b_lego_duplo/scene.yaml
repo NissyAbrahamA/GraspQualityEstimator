@@ -1,0 +1,26 @@
+bg_objects: []
+ground_area_x: 0.297
+ground_area_y: 0.297
+object_library_fn: ..\..\object_library\object_library_watertight.yaml
+objects:
+- object_type: 073-b_lego_duplo
+  pose:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.16852138266107067
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.16930524689517915
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.12728895135363563
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+printout: null
+yaml_file_type: Scene
+yaml_file_version: '1.0'

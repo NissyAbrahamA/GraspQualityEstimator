@@ -1,0 +1,26 @@
+bg_objects: []
+ground_area_x: 0.297
+ground_area_y: 0.297
+object_library_fn: ..\..\object_library\object_library_watertight.yaml
+objects:
+- object_type: 071_nine_hole_peg_test
+  pose:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.14939194625616073
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.13486205121874809
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.1284382027122192
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+printout: null
+yaml_file_type: Scene
+yaml_file_version: '1.0'
