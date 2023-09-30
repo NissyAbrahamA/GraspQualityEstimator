@@ -96,7 +96,6 @@ def predict_grasp_contact_points_eval(obj_name):
 def evaluate_grasp():
     results = []
     obj_name = ['002_master_chef_can.obj']
-    # '', '', '018_plum.obj', '025_mug.obj',
     # '029_plate.obj', '057_racquetball.obj', '063-a_marbles.obj', '065-i_cups.obj', '072-a_toy_airplane.obj'
     for obj_name in obj_name:
         for i in range(10000):
@@ -112,10 +111,8 @@ def evaluate_grasp():
                 "result": result
             }
             results.append(result)
-    # print(results)
     result_df = pd.DataFrame(results)
-    result_df.to_csv('output_mcc.csv', index=False)
-
+    result_df.to_csv('output.csv', index=False)
     print(result_df)
 
 if __name__ == "__main__":
