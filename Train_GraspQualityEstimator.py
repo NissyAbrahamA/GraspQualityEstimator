@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import DataLoader
 import numpy as np
 from torch.utils.data import Dataset
-from convonets.src.checkpoints import CheckpointIO
+from latent_representation.convonets.src.checkpoints import CheckpointIO
 from GraspQualityEstimator_NeuralNetwork import create_grasp_quality_net
 from gag_refine.utils.transform import transform_points
 from torch.optim.lr_scheduler import StepLR
@@ -25,6 +25,11 @@ if hasWandB:
 SCENE_EDGE_LENGTH = 0.297
 
 def pre_normalisation_tf():
+    """
+        Create a transformation matrix for pre-normalization of 3D points.
+        :return: torch.Tensor
+            Transformation matrix to scale and shift points to the range [-0.5, 0.5].
+    """
     tf = torch.eye(4)
     tf[:3, :3] /= SCENE_EDGE_LENGTH  # scaling to [0, 1]
     tf[:3, 3] -= 0.5  # shifting to [-0.5, 0.5]
@@ -32,6 +37,13 @@ def pre_normalisation_tf():
 
 
 def pre_normalise_points(points):
+    """
+        Pre-normalize 3D points using a transformation matrix.
+        :param points: torch.Tensor or np.ndarray
+            Input tensor or array containing 3D points.
+        :return: torch.Tensor or np.ndarray
+            Pre-normalized 3D points.
+    """
     #print('in-points')
     #print(points)
     as_numpy = False
@@ -54,7 +66,15 @@ def pre_normalise_points(points):
     return tf_points
 
 class CustomDataset(Dataset):
+
     def __init__(self, npz_folder, conv_folder):
+        """
+        Custom dataset class for loading data from NPZ and convolutional feature files.
+        :param npz_folder: str
+        Path to the folder containing NPZ files with contact points and scores.
+        :param conv_folder: str
+        Path to the folder containing convolutional feature files.
+        """
         self.npz_files = [os.path.join(npz_folder, filename) for filename in os.listdir(npz_folder) if filename.endswith(".npz")]
         self.conv_folder = conv_folder
 
@@ -62,6 +82,13 @@ class CustomDataset(Dataset):
         return len(self.npz_files)
 
     def __getitem__(self, idx):
+        """
+        Load a sample from the dataset at a specific index.
+        :param idx: int
+        Index of the sample to load.
+        :return: dict
+        Dictionary containing contact points, scores, and convolutional features.
+        """
         npz_file = self.npz_files[idx]
         data = np.load(npz_file)
         #print('npz_file' + str(npz_file))
@@ -96,6 +123,16 @@ class CustomDataset(Dataset):
         }
 
 def log_losses(loss_dict, epoch, prefix=None):
+    """
+    Log loss for epoch
+    :param loss_dict: dict
+    Dictionary containing loss names as keys and lists of loss values as values.
+    :param epoch: int
+    Current epoch number.
+    :param prefix: str, optional
+    Prefix to be added to the loss names in the logs.
+    :return: None
+    """
     if prefix is None:
         prefix = ''
     else:
@@ -112,6 +149,9 @@ def log_losses(loss_dict, epoch, prefix=None):
 
 
 def train():
+    """
+    Function to train the model
+    """
     epochs = 2000
     learning_rate = 0.001
     hidden_dim = 64

@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import DataLoader
 import numpy as np
 from torch.utils.data import Dataset
-from convonets.src.checkpoints import CheckpointIO
+from latent_representation.convonets.src.checkpoints import CheckpointIO
 from GraspQualityEstimator_NeuralNetwork import create_grasp_quality_net
 from Train_GraspQualityEstimator import CustomDataset, log_losses
 import logging
@@ -19,6 +19,16 @@ import datetime
 #     wandb.init(project='grasp_quality_estimator_')
 
 def test(test_npz_folder, test_conv_folder, model_path):
+    """
+        Test the grasp quality prediction model on a test dataset.
+        :param test_npz_folder: str
+            Path to the folder containing test dataset in NPZ format.
+        :param test_conv_folder: str
+            Path to the folder containing precomputed convolutional features.
+        :param model_path: str
+            Path to the saved model checkpoint.
+        :return: None
+    """
     batch_size = 1
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 

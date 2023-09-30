@@ -19,6 +19,28 @@ vis_out = False
 input_dir = 'C:/Users/anizy/OneDrive - Aston University/Documents/GraspQualityEstimator/input'
 
 def refine_grasp_contact_points(ref_points, cp1, cp2):
+    """
+        Refines grasp contact points based on nearest neighbors in a point cloud.
+
+        :param ref_points: numpy.ndarray
+            point cloud containing graspable object surface points and normals.
+        :param cp1: numpy.ndarray
+            Initial contact point 1.
+        :param cp2: numpy.ndarray
+            Initial contact point 2.
+
+        :return: tuple
+            Returns a tuple containing refined contact points, scores, and associated data.
+            - cp1: numpy.ndarray
+            - cp2: numpy.ndarray
+            - contact_points: numpy.ndarray
+            - score: float
+            - p_r: numpy.ndarray
+            - q_r: numpy.ndarray
+            - n_r: numpy.ndarray
+            - m_r: numpy.ndarray
+            - d: numpy.ndarray
+        """
     kdtree = cKDTree(ref_points)
     distance_threshold = 0.01
     new_cp1 = kdtree.query_ball_point(cp1, r=distance_threshold)
@@ -43,6 +65,19 @@ def refine_grasp_contact_points(ref_points, cp1, cp2):
     return cp1, cp2, contact_points, score, p_r, q_r, n_r, m_r, d
 
 def predict_grasp_contact_points_eval(obj_name):
+    """
+      Choose random grasp contact points for evaluation of grasp refinement on a given object.
+
+      :param obj_name: str
+          The name of the object for which grasp contact points are predicted.
+
+      :return: tuple
+          Returns a tuple containing evaluation results.
+          - first_score: float
+          - last_score: float
+          - iterations: int
+          - result: str
+      """
     i_score = 0
     contact_points = None
     mesh_fn = os.path.join(input_dir, obj_name)
@@ -94,6 +129,9 @@ def predict_grasp_contact_points_eval(obj_name):
     return first_score, last_score, iterations, result
 
 def evaluate_grasp():
+    """
+       Evaluates grasp predictions for a set of objects.
+    """
     results = []
     obj_name = ['002_master_chef_can.obj']
     # '029_plate.obj', '057_racquetball.obj', '063-a_marbles.obj', '065-i_cups.obj', '072-a_toy_airplane.obj'

@@ -19,6 +19,28 @@ vis_out = False
 input_dir = 'C:/Users/anizy/OneDrive - Aston University/Documents/GraspQualityEstimator/input'
 
 def refine_grasp_contact_points_for_model(ref_points, cp1, cp2, prev_score=0):
+    """
+            Refines grasp contact points based on nearest neighbors in a point cloud.
+
+            :param ref_points: numpy.ndarray
+                point cloud containing graspable object surface points and normals.
+            :param cp1: numpy.ndarray
+                Initial contact point 1.
+            :param cp2: numpy.ndarray
+                Initial contact point 2.
+
+            :return: tuple
+                Returns a tuple containing refined contact points, scores, and associated data.
+                - cp1: numpy.ndarray
+                - cp2: numpy.ndarray
+                - contact_points: numpy.ndarray
+                - score: float
+                - p_r: numpy.ndarray
+                - q_r: numpy.ndarray
+                - n_r: numpy.ndarray
+                - m_r: numpy.ndarray
+                - d: numpy.ndarray
+            """
     kdtree = cKDTree(ref_points)
     distance_threshold = 0.01
     score = 0
@@ -62,6 +84,19 @@ def refine_grasp_contact_points_for_model(ref_points, cp1, cp2, prev_score=0):
 
 
 def predict_grasp_contact_points(obj_name):
+    """
+          Choose random grasp contact points for evaluation of grasp refinement on a given object until successful grasp is identified.
+
+          :param obj_name: str
+              The name of the object for which grasp contact points are predicted.
+
+          :return: tuple
+              Returns a tuple containing evaluation results.
+              - first_score: float
+              - last_score: float
+              - iterations: int
+              - result: str
+    """
     i_score = 0
     contact_points = None
 
@@ -159,6 +194,10 @@ def predict_grasp_contact_points(obj_name):
         print('Maximum attempts reached. Could not find better contact points. ')
 
 def get_grasp_for_object():
+    """
+    function for getting success grasp for the input object
+    :return:
+    """
     obj_name = "011_banana.obj"
     predict_grasp_contact_points(obj_name)
 
