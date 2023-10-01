@@ -68,8 +68,10 @@ Various visualizations and testing of the datasets are avialable in Test folder,
 
 ## Testing Baseline Model
 
-The GraspQualityEstimator_Baseline.py can be executed directly in CPU machines as it has hardcoded experimental set up in place. 
-The GraspQualityEstimator_Baseline_Demo.py can be executed directly in CPU machines. The program tried to identify success grasp though iterative refinement.
+The GraspQualityEstimator_Baseline.py can be run on CPU machines without any issues since it contains a hardcoded experimental setup.
+Similarly, the GraspQualityEstimator Baseline Demo.py is also compatible with CPU machines. This program aims to identify successful
+grasps through an iterative refinement process.
 
-## Neural Network Model 
-After setting up the environment as explained above, the Test_GraspQualityEstimator.py can be executed on the testing dataset in Input_NN folder using GPU machine. 
+## Testing Neural Network Model 
+After setting up the environment as explained above, the Test_GraspQualityEstimator.py script can be executed on a GPU machine.
+This script is designed to be run on the testing dataset located in the Input_NN folder
